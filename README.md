@@ -2,6 +2,8 @@
 
 Node 16 is required for discord.js to work.
 
+Make sure you don't have an `Interactions Endpoint URL` set in your Discord's app config, or you won't receive events over the gateway.
+
 ## How to run: 
 
 - Create a `.env` file and fill the necessary env vars to run the bot setup. You can get the `GUILD_ID` and `FOUNDER_CHANNEL_ID` from your discord server, and the rest from the app configuration
