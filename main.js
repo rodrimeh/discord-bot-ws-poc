@@ -13,8 +13,6 @@ const client = new Client({
 const dotenv = require("dotenv");
 dotenv.config();
 
-console.log(process.env.BOT_TOKEN);
-
 client.once("ready", () => {
   console.log("bot on and ready");
 });
